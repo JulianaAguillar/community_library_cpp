@@ -1,0 +1,18 @@
+# Library Management System
+
+## Phase 1 - Evidence of source control check-in/check-out
+
+```bash
+# create a feature branch (check-out)
+git checkout -b feature/validate-unavailable
+
+# edit file(s), then stage and commit
+git add library_book_system.cpp
+git commit -m "fix: add unavailable check and clearer messages"
+
+# push branch and open a PR on GitHub
+git push -u origin feature/validate-unavailable
+
+# merge PR on GitHub, then update local
+git checkout main
+git pull
