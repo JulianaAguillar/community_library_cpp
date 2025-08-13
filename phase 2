@@ -1,0 +1,13 @@
+Library ready. Enter ISBN to borrow (0 to exit):
+> ISBN: 9780201633610
+Error: Book is already borrowed.
+> ISBN: 9780132350884
+Success: Book borrowed.
+Title: Clean Code
+Author: Robert C. Martin
+ISBN: 9780132350884
+Availability: Borrowed
+> ISBN: 000000000000
+Error: ISBN not found.
+> ISBN: 0
+Program terminated.
