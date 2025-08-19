@@ -1,0 +1,41 @@
+=== Instantiation: valid data ===
+[OK] "Clean Code" | Robert C. Martin | 9780132350884 | Borrowed | 2024-01-10
+[OK] "The Pragmatic Programmer" | Andrew Hunt, David Thomas | 9780201616224 | Available | 2023-11-20
+[OK] "Design Patterns" | Erich Gamma et al. | 9780201633610 | Available | 2022-05-01
+
+=== Instantiation: invalid data (expect errors) ===
+[ERROR] title is empty
+[ERROR] isbn invalid (non-numeric or wrong length)
+[ERROR] availability value invalid (use 'Available' or 'Borrowed')
+
+Before sort (ASC added):
+1) Clean Code
+2) Design Patterns
+3) The Pragmatic Programmer
+
+Before sort (DESC added):
+1) The Pragmatic Programmer
+2) Design Patterns
+3) Clean Code
+
+Before sort (MIXED added):
+1) Design Patterns
+2) The Pragmatic Programmer
+3) Clean Code
+
+After sort (ASC -> ascending):
+1) Clean Code
+2) Design Patterns
+3) The Pragmatic Programmer
+
+After sort (DESC -> ascending):
+1) Clean Code
+2) Design Patterns
+3) The Pragmatic Programmer
+
+After sort (MIXED -> ascending):
+1) Clean Code
+2) Design Patterns
+3) The Pragmatic Programmer
+
+=== Done ===
